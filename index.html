@@ -24,6 +24,7 @@
     </style>
 </head>
 <body>
+    <img src="">
     <div id="countdown"></div>
 
     <script>
@@ -41,7 +42,7 @@
             const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-            document.getElementById("countdown").innerHTML = `Faltam ${days} dias, ${hours} horas, ${minutes} minutos e ${seconds} segundos.`;
+            document.getElementById("countdown").innerHTML = `A pasta Xeque-mate será aberta em ${days} dias, ${hours} horas, ${minutes} minutos e ${seconds} segundos.`;
         }
 
         // Atualiza o contador a cada segundo
